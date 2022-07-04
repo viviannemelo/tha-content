@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vh;
+    height: 660px;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+}
+
+header > .info1{
+    color: #3B47E4;
+}
