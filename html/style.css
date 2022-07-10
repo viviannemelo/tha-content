@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* header */
+header{
+    width: 100vh;
+    height: 660px;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+}
+
+header > .info1{
+    color: #3B47E4;
+}
+/**/
+
+/* footer */
+footer{
+    margin: 58px 16px;
+    padding: 0 3px;
+    max-width: 1440px;
+    justify-content: center;
+    
+}
+
+footer > .info-footer {
+    display: flex;
+    
+
+}
+
+footer > .info-footer > div {
+    width: 25%;
+
+    color: #3B47E4;
+}
+
+footer > .info-footer > .img-footer{
+    width: 137px;
+}
+
+footer > .info-footer > .direitos{
+    margin: 0;
+    width: 416px;
+    
+    line-height: 20.32px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer > .info-footer > .contato{
+    margin: 0;
+    width: 360px;
+    
+    line-height: 20.32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer > .info-footer > .termo-de-uso{
+    margin: 0;
+    width: 229px;
+    
+    line-height: 20.32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer > p {
+    margin: 38px 32px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    color: #3B47E4;
+}
