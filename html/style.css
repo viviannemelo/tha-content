@@ -23,6 +23,55 @@ header > .info1{
 }
 /**/
 
+/* lista de vantagens */
+.lista-de-vantagens{
+    max-width: 1440px;
+    height: 250px;
+    
+    align-items: center;
+
+    background: #3B47E4;
+}
+
+.vantagens-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 64.6px;
+    margin: 53px 160px; 
+}
+
+.lista-de-vantagens > .vantagens-icon > img{
+    max-width: 53.33px;
+}
+
+.vantagens-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 53px 160px;  
+}
+
+.lista-de-vantagens > .vantagens-texto > p{
+    max-width: 230px;
+    height: 35px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+
+    position: relative;
+    top: 25px;
+}
+
 /* footer */
 footer{
     margin: 58px 16px;
