@@ -1,27 +1,127 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     padding: 0;
     margin: 0;
 
+    font-size: 100%;
+    background-color: #F1EEE8;
 }
 
 /* header */
 header{
     width: 100vh;
     height: 660px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     align-items: center;
+   
 }
 
-header > .info1{
+header > .home-page{
+    color: #3B47E4;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+header > .home-page > h1{
+    position: absolute;
+    width: 624px;
+    height: 173px;
+    left: 160px;
+    top: 94px;
+
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 58px;
+    line-height: 65px;
+    /* or 112% */
+
+    letter-spacing: 0.01em;
+
     color: #3B47E4;
 }
+
+header > .home-page > p{
+    position: absolute;
+    width: 556px;
+    height: 113px;
+    left: 160px;
+    top: 300px;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    /* or 115% */
+
+
+    color: #3B47E4;
+}
+
+header > .home-page > ul{
+    position: absolute;
+    width: 520px;
+    height: 26px;
+    left: 196px;
+    top: 420px;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height, or 124% */
+
+    color: #3B47E4;
+
+    text-decoration: none;
+}
+
+header > .home-page > .button{
+    width: 475px;
+    height: 61px;
+
+    position: absolute;
+    left: 160px;
+    top: 550px;
+
+    background: #D6FF72;
+    border-radius: 50px;
+    border: none;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 29px;
+    /* identical to box height */
+
+    
+
+    color: #2730A6;
+
+
+}
+
+header > .home-page > .computer-mockup {
+    width: 711px;
+    height: 698px;
+    
+    position: relative;
+    left: 300px;
+}
 /**/
+
 
 /* lista de vantagens */
 .lista-de-vantagens{
@@ -71,6 +171,8 @@ header > .info1{
     position: relative;
     top: 25px;
 }
+/**/
+
 
 /* footer */
 footer{
@@ -132,4 +234,6 @@ footer > p {
     font-weight: 400;
     line-height: 20.32px;
     color: #3B47E4;
+
+    border-top: 1px solid #3B47E4;
 }
