@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: "Cooper Hewitt";
     src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Heavy.otf) format(otf);
 }
@@ -17,7 +17,6 @@
     font-family: "CooperHewitt";
     src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Heavy.otf) format(otf);
 }
-*/
 
 
 *{
@@ -175,6 +174,8 @@ header > .computer-mockup {
     position: relative;
     top: 64.6px;
     margin: 53px 160px; 
+
+    /* colocar padding */
 }
 
 .lista-de-vantagens > .vantagens-icon > img{
@@ -210,6 +211,7 @@ header > .computer-mockup {
 .lista-de-beneficios{
     max-width: 1440px;
     height: 250px;
+    padding: 84px 160px;
     
     align-items: center;
 
@@ -222,9 +224,7 @@ header > .computer-mockup {
     align-items: center;
     justify-content: space-around;
     
-    position: relative;
-    top: 64.6px;
-    margin: 53px 160px;
+    
 }
 
 .lista-de-beneficios > .beneficios-icons > img{
@@ -235,9 +235,7 @@ header > .computer-mockup {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-
-    margin: 53px 160px;  
+    justify-content: space-around; 
 }
 
 .lista-de-beneficios > .beneficios-texto > p{
@@ -250,15 +248,13 @@ header > .computer-mockup {
     line-height: 20px;
     text-align: center;
     color: #fff;
-
-    position: relative;
-    top: 25px;
 }
 
 .beneficios-button{
     margin: auto;
     width: 475px;
     height: 61px;
+    border: 0;
     
 }
 
@@ -268,13 +264,12 @@ header > .computer-mockup {
     height: 50px;
     background: #D6FF72;
     border-radius: 50px;
-    display: flex;
+    
     align-items: center;
 
     font-style: normal;
     
-
-    border-top: 2px solid #D6FF72;
+    border: 0;
 }
 
 /**/
@@ -376,5 +371,5 @@ footer > p {
     line-height: 20.32px;
     color: #3B47E4;
 
-    border-top: 1px solid #3B47E4;
+    /*usar linha como border-top*/
 }
