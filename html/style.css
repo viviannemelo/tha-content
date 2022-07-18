@@ -23,27 +23,260 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     padding: 0;
     margin: 0;
-    
+
+    font-size: 100%;
+    background-color: #F1EEE8;
 }
 
 /* header */
 header{
-    width: 100vh;
+    width: 100%;
     height: 660px;
-    display: inline-block;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
     align-items: center;
+    justify-content: space-around;
 }
 
-header > .info1{
+header > .home-page{
+    width: 700px;
+    color: #3B47E4;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+header > .home-page > h1{
+    width: 550px;
+    height: 173px;
+    position: relative;
+    top: -175px;
+    left: 150px;
+
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 58px;
+    line-height: 65px;
+    /* or 112% */
+
+    letter-spacing: 0.01em;
+
     color: #3B47E4;
 }
+
+header > .home-page > p{
+    position: absolute;
+    width: 480px;
+    height: 113px;
+    left: 155px;
+    top: 270px;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    /* or 115% */
+
+
+    color: #3B47E4;
+}
+
+header > .home-page > .lista-home-page{
+    position: absolute;
+    
+    width: 430px;
+    height: 26px;
+    left: 196px;
+    top: 420px;
+
+    flex-wrap: wrap;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    /* identical to box height, or 124% */
+
+    color: #3B47E4;
+
+    text-decoration: none;
+}
+
+.home-page > .lista-home-page > img{
+    width: 26px;
+    position: absolute;
+    left: -40px;
+    
+}
+
+.home-page > .lista-home-page > p{
+    position: relative;
+}
+
+header > .home-page > .button{
+    width: 400px;
+    height: 61px;
+
+    position: absolute;
+    left: 160px;
+    top: 550px;
+
+    background: #D6FF72;
+    border-radius: 50px;
+    border: none;
+
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 29px;
+    /* identical to box height */
+
+    
+
+    color: #2730A6;
+
+
+}
+
+header > .computer-mockup {
+    
+}
+/**/
+
+
+/* lista de vantagens */
+.lista-de-vantagens{
+    width: 100%;
+    height: 250px;
+    
+    align-items: center;
+
+    background: #3B47E4;
+}
+
+.vantagens-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 64.6px;
+    margin: 53px 160px; 
+}
+
+.lista-de-vantagens > .vantagens-icon > img{
+    max-width: 53.33px;
+}
+
+.vantagens-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 53px 160px;  
+}
+
+.lista-de-vantagens > .vantagens-texto > p{
+    max-width: 230px;
+    height: 35px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+
+    position: relative;
+    top: 25px;
+}
+/**/
+
+/* lista de benefícios */
+.lista-de-beneficios{
+    max-width: 1440px;
+    height: 250px;
+    
+    align-items: center;
+
+    background: #3B47E4;
+}
+
+.beneficios-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 64.6px;
+    margin: 53px 160px;
+}
+
+.lista-de-beneficios > .beneficios-icons > img{
+    max-width: 47px;
+}
+
+.beneficios-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 53px 160px;  
+}
+
+.lista-de-beneficios > .beneficios-texto > p{
+    max-width: 265px;
+    height: 35px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+
+    position: relative;
+    top: 25px;
+}
+
+.beneficios-button{
+    margin: auto;
+    width: 475px;
+    height: 61px;
+    
+}
+
+.beneficios-button > button{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    background: #D6FF72;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    
+
+    border-top: 2px solid #D6FF72;
+}
+
 /**/
 
 /* footer */
@@ -142,4 +375,6 @@ footer > p {
     font-weight: 400;
     line-height: 20.32px;
     color: #3B47E4;
+
+    border-top: 1px solid #3B47E4;
 }
