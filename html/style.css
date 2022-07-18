@@ -1,12 +1,35 @@
+/*@font-face {
+    font-family: "Cooper Hewitt";
+    src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Heavy.otf) format(otf);
+}
+
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Bold.otf) format(otf);
+}
+
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Medium.otf) format(otf);
+}
+
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(../css/fontes/Cooper-Hewitt/CooperHewitt-Heavy.otf) format(otf);
+}
+*/
+
+
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     padding: 0;
     margin: 0;
-
+    
 }
 
 /* header */
@@ -25,9 +48,9 @@ header > .info1{
 
 /* footer */
 footer{
-    margin: 58px 16px;
-    padding: 0 3px;
+   
     max-width: 1440px;
+    height: 340px;
     justify-content: center;
     
 }
@@ -45,12 +68,22 @@ footer > .info-footer > div {
 }
 
 footer > .info-footer > .img-footer{
+    position: relative;
     width: 137px;
+    height: 69px;
+    left: 16px;
+    
+    
 }
 
 footer > .info-footer > .direitos{
-    margin: 0;
+    position: relative;
     width: 416px;
+    height: 20px;
+    left: 46px;
+    margin: 0;
+    padding-right: 12px;
+    
     
     line-height: 20.32px;
     font-weight: 400;
@@ -59,8 +92,12 @@ footer > .info-footer > .direitos{
 }
 
 footer > .info-footer > .contato{
-    margin: 0;
-    width: 360px;
+    position: relative;
+    margin: 0 20px;
+    width: 320px;
+    height: 40px;
+    left: 59px;
+    
     
     line-height: 20.32px;
     font-weight: 400;
@@ -68,16 +105,38 @@ footer > .info-footer > .contato{
 }
 
 footer > .info-footer > .termo-de-uso{
-    margin: 0;
+    position: relative;
     width: 229px;
+    height: 80px;
+    left: 150px;
+    margin: 0;
+    
     
     line-height: 20.32px;
     font-weight: 400;
     font-size: 16px;
 }
 
+footer > .line-footer {
+    position: relative;
+    width: 98%;
+    height: 0px;
+    left: 16px;
+    right: 15px;
+    top: 50px;
+    
+
+    border: 1px solid #3B47E4;
+}
+
 footer > p {
-    margin: 38px 32px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    
+    top: 90px;
+    
 
     font-size: 16px;
     font-weight: 400;
