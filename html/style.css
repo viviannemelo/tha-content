@@ -15,20 +15,17 @@ body{
 
 /* header */
 header{
-    
+    width: 100%;
     height: 660px;
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-around;
-   
 }
 
 header > .home-page{
-    width: 500px;
-
-
+    width: 700px;
     color: #3B47E4;
     display: flex;
     flex-direction: column;
@@ -36,11 +33,11 @@ header > .home-page{
 }
 
 header > .home-page > h1{
-    position: absolute;
     width: 550px;
     height: 173px;
-    left: 155px;
-    top: 94px;
+    position: relative;
+    top: -175px;
+    left: 150px;
 
     font-family: 'Cooper Hewitt';
     font-style: normal;
@@ -59,7 +56,7 @@ header > .home-page > p{
     width: 480px;
     height: 113px;
     left: 155px;
-    top: 300px;
+    top: 270px;
 
     font-family: 'Cerebri Sans';
     font-style: normal;
@@ -132,14 +129,14 @@ header > .home-page > .button{
 }
 
 header > .computer-mockup {
-    left: 100px;
+    
 }
 /**/
 
 
 /* lista de vantagens */
 .lista-de-vantagens{
-    max-width: 1440px;
+    width: 100%;
     height: 250px;
     
     align-items: center;
@@ -187,6 +184,78 @@ header > .computer-mockup {
 }
 /**/
 
+/* lista de benefícios */
+.lista-de-beneficios{
+    max-width: 1440px;
+    height: 250px;
+    
+    align-items: center;
+
+    background: #3B47E4;
+}
+
+.beneficios-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 64.6px;
+    margin: 53px 160px;
+}
+
+.lista-de-beneficios > .beneficios-icons > img{
+    max-width: 47px;
+}
+
+.beneficios-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 53px 160px;  
+}
+
+.lista-de-beneficios > .beneficios-texto > p{
+    max-width: 265px;
+    height: 35px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+
+    position: relative;
+    top: 25px;
+}
+
+.beneficios-button{
+    margin: auto;
+    width: 475px;
+    height: 61px;
+    
+}
+
+.beneficios-button > button{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    background: #D6FF72;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    
+
+    border-top: 2px solid #D6FF72;
+}
+
+/**/
 
 /* footer */
 footer{
