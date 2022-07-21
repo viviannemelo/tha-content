@@ -514,6 +514,94 @@ header > .home-page > .button{
 }
 /**/
 
+/* section bonus 04 */
+.bonus-04{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding: 92px 160px;
+    background-color: #E5E5E5;
+    color: #3B47E4;
+}
+
+.bonus-04 > figure{
+    position: absolute;
+    left: 107px;
+    top: 83px;
+}
+
+.bonus-04 > img{
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.bonus-04 > .info-bonus-04 > span{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    top: -15px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em; 
+}
+
+.bonus-04 > .info-bonus-04 > h3{
+    position: relative;
+    top: -15px;
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.bonus-04 > .info-bonus-04 > h4{
+    width: 520px;
+    height: 66px;
+    position: relative;
+    top: -5px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.bonus-04 > .info-bonus-04 > p{
+    width: 700px;
+    height: 135px;
+    position: relative;
+    justify-content: right;
+    top: 15px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.bonus-04 > .info-bonus-04 > ul{
+    position: relative;
+    top: 75px;
+    width: 705px;
+    padding-top: 10px;
+
+    list-style-image: url(../css/imagens/cb-9/arrow-pink.svg);
+    list-style-position: inside;
+    
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35px;
+}
+/**/
+
 /* footer */
 footer{
     max-width: 1440px;
