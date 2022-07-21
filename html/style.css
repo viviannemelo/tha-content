@@ -602,6 +602,97 @@ header > .home-page > .button{
 }
 /**/
 
+/* section bonus 05 */
+.bonus-05{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding: 92px 160px;
+    background-color: #3B47E4;
+    color: #FFFFFF;
+}
+
+.bonus-05 > figure{
+    position: absolute;
+    left: 106px;
+    top: 280px;
+}
+
+.bonus-05 > .info-bonus-05 > span{
+    position: relative;
+    top: 20px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em; 
+}
+
+.bonus-05 > .info-bonus-05 > h3{
+    position: relative;
+    top: 25px;
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.bonus-05 > .info-bonus-05 > h4{
+    width: 610px;
+    height: 66px;
+    position: relative;
+    top: 30px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.bonus-05 > .info-bonus-05 > p{
+    width: 660px;
+    height: 189px;
+    position: relative;
+    justify-content: right;
+    top: 10px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+}
+.bonus-05 > .info-bonus-05 > .o-que-voce-vai-aprender{
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    top: -50px;
+
+    color: #D6FF72;
+}
+
+.bonus-05 > .info-bonus-05 > ul{
+    position: relative;
+    top: -45px;
+    width: 705px;
+    padding-top: 10px;
+
+    list-style-image: url(../css/imagens/cb-12/asterisco-icon.svg);
+    list-style-position: inside;
+    
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
+}
+/**/
+
 /* footer */
 footer{
     max-width: 1440px;
