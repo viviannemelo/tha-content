@@ -43,6 +43,13 @@ header{
     margin: 0 auto;
     align-items: center;
     justify-content: space-around;
+
+    background-image: url(../css/imagens/cb-2/all-computer-mockup.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+
+    font-family: ;
 }
 
 header > .home-page{
@@ -55,10 +62,9 @@ header > .home-page{
 
 header > .home-page > h1{
     width: 550px;
-    height: 173px;
     position: relative;
     top: -175px;
-    left: 150px;
+    left: -170px;
 
     font-family: 'Cooper Hewitt';
     font-style: normal;
@@ -77,14 +83,14 @@ header > .home-page > p{
     width: 480px;
     height: 113px;
     left: 155px;
-    top: 270px;
+    top: 250px;
 
     font-family: 'Cerebri Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 30px;
-    /* or 115% */
+    /* or 115%*/
 
 
     color: #3B47E4;
@@ -93,34 +99,33 @@ header > .home-page > p{
 header > .home-page > .lista-home-page{
     position: absolute;
     
-    width: 430px;
+    width: 470px;
     height: 26px;
     left: 196px;
-    top: 420px;
+    top: 350px;
 
-    flex-wrap: wrap;
+    
 
     font-family: 'Cerebri Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 36px;
-    /* identical to box height, or 124% */
+    text-align: justify;
+    /* identical to box height, or 124%*/
 
     color: #3B47E4;
 
-    text-decoration: none;
-}
-
-.home-page > .lista-home-page > img{
-    width: 26px;
-    position: absolute;
-    left: -40px;
+    list-style-image: url(../css/imagens/cb-2/check.svg);
     
 }
 
 .home-page > .lista-home-page > p{
     position: relative;
+    background-image: url(../css/imagens/cb-2/check.svg);
+    background-repeat: no-repeat;
+    background-position: -10px;
+    background-size: 26px;
 }
 
 header > .home-page > .button{
@@ -145,12 +150,6 @@ header > .home-page > .button{
     
 
     color: #2730A6;
-
-
-}
-
-header > .computer-mockup {
-    
 }
 /**/
 
