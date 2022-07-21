@@ -447,13 +447,13 @@ header > .home-page > .button{
 
 .bonus-03 > figure{
     position: absolute;
-    left: 105px;
-    top: 490px;
+    left: 83px;
+    top: 239px;
 }
 
 .bonus-03 > .info-bonus-03 > span{
     position: relative;
-    top: 25px;
+    top: 35px;
     font-family: 'Cerebri Sans';
     font-style: normal;
     font-weight: 400;
@@ -464,7 +464,7 @@ header > .home-page > .button{
 
 .bonus-03 > .info-bonus-03 > h3{
     position: relative;
-    top: 22px;
+    top: 40px;
     font-family: 'Cooper Hewitt';
     font-style: normal;
     font-weight: 713;
@@ -473,23 +473,23 @@ header > .home-page > .button{
 }
 
 .bonus-03 > .info-bonus-03 > h4{
-    width: 600px;
+    width: 610px;
     height: 66px;
     position: relative;
-    top: 22px;
+    top: 60px;
     font-family: 'Cerebri Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 33px;
 }
 
 .bonus-03 > .info-bonus-03 > p{
-    width: 700px;
-    height: 135px;
+    width: 660px;
+    height: 189px;
     position: relative;
     justify-content: right;
-    top: 40px;
+    top: 120px;
     font-family: 'Cerebri Sans';
     font-style: normal;
     font-weight: 400;
@@ -499,7 +499,7 @@ header > .home-page > .button{
 
 .bonus-03 > .info-bonus-03 > ul{
     position: relative;
-    top: 50px;
+    top: 130px;
     width: 705px;
     padding-top: 10px;
 
