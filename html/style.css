@@ -432,6 +432,88 @@ header > .home-page > .button{
     line-height: 27px;
 }
 /**/
+
+/* section bonus 03 */
+.bonus-03{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding: 92px 160px;
+    background-color: #3B47E4;
+    color: #FFFFFF;
+}
+
+.bonus-03 > figure{
+    position: absolute;
+    left: 83px;
+    top: 239px;
+}
+
+.bonus-03 > .info-bonus-03 > span{
+    position: relative;
+    top: 35px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em; 
+}
+
+.bonus-03 > .info-bonus-03 > h3{
+    position: relative;
+    top: 40px;
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.bonus-03 > .info-bonus-03 > h4{
+    width: 610px;
+    height: 66px;
+    position: relative;
+    top: 60px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.bonus-03 > .info-bonus-03 > p{
+    width: 660px;
+    height: 189px;
+    position: relative;
+    justify-content: right;
+    top: 120px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.bonus-03 > .info-bonus-03 > ul{
+    position: relative;
+    top: 130px;
+    width: 705px;
+    padding-top: 10px;
+
+    list-style-image: url(../css/imagens/cb-10/arrow-green.svg);
+    list-style-position: inside;
+    
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+}
+/**/
+
 /* footer */
 footer{
     max-width: 1440px;
