@@ -692,7 +692,63 @@ header > .home-page > .button{
     line-height: 40px;
 }
 /**/
-
+/* recapitulando */
+.recapitulando {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #FFB0E2;
+    color: #3B47E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.recapitulando h3{
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+}
+.recapitulando #topicos{
+    width: 70%;
+    line-height: 26px;
+}
+#topicos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    padding: 26px;
+}
+#topicos #topico-1{
+    border-bottom: 2px solid #D6FF72;
+}
+#topicos #topico-2{
+    border-bottom: 2px solid #D6FF72;
+}
+#topicos #topico-3{
+    border-bottom: 2px solid #D6FF72;
+}
+#topicos #topico-4{
+    border-bottom: 2px solid #D6FF72;
+}
+#topicos #topico-5{
+    border-bottom: 2px solid #D6FF72;
+}
+.recapitulando span{
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 53px;
+    text-align: center;
+}
 /* footer */
 footer{
     max-width: 1440px;
