@@ -202,7 +202,90 @@ header > .home-page > .button{
     top: 25px;
 }
 /**/
-
+.acesso{
+    position: relative;
+    width: 100%;
+    padding: 70px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.acesso h3{
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 42px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3B47E4;
+}
+.acesso p#um{
+    width: 50%;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    display: inline;
+    text-align: center;
+    color: #3B47E4;
+}
+.acesso #bg-icon{
+    position: absolute;
+    top: 200px;
+    left: 170px;
+}
+.acesso #bg-icon-2{
+    position: absolute;
+    left: 1100px;
+}
+.acesso #bg-icon-3{
+    position: absolute;
+    left: 990px;
+    top: 630px;
+}
+#mosaico{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+#mosaico aside{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    background: #FAE0CF;
+    border-radius: 29px;
+    padding: 40px 8px;
+    align-items: center;
+}
+aside p{
+    width: 280px;
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 2px solid #FB6DC6;
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 21px;
+    line-height: 27px;
+    color: #3B47E4;
+}
+.acesso p#dois{
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    color: #3B47E4;
+    margin-top: 10px;
+}
 /* lista de benefícios */
 .lista-de-beneficios{
     max-width: 1440px;
@@ -748,6 +831,13 @@ header > .home-page > .button{
     line-height: 53px;
     text-align: center;
 }
+<<<<<<< HEAD
+/**/
+
+/* mentora */
+.mentora{
+    background-image: url(../css/imagens/);
+=======
 .mentora{
     position: relative;
     width: 100%;
@@ -800,6 +890,7 @@ img#icon-bg{
     position: absolute;
     bottom: 3%;
     right: 8px;
+>>>>>>> refs/remotes/origin/master
 }
 /* footer */
 footer{
