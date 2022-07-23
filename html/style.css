@@ -146,9 +146,6 @@ header > .home-page > .button{
     font-size: 23px;
     line-height: 29px;
     /* identical to box height */
-
-    
-
     color: #2730A6;
 }
 /**/
@@ -209,11 +206,8 @@ header > .home-page > .button{
 /* lista de benefícios */
 .lista-de-beneficios{
     max-width: 1440px;
-    height: 250px;
-    padding: 84px 160px;
-    
+    padding: 60px 160px;
     align-items: center;
-
     background: #3B47E4;
 }
 
@@ -222,7 +216,7 @@ header > .home-page > .button{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+    padding-bottom: 15px;
     
 }
 
@@ -247,14 +241,14 @@ header > .home-page > .button{
     line-height: 20px;
     text-align: center;
     color: #fff;
+    padding-bottom: 80px;
 }
-
 .beneficios-button{
     margin: auto;
-    width: 475px;
-    height: 61px;
-    border: 0;
-    
+    width: 350px;
+    display: flex;
+    padding-top: 40px;
+    border-top: 2px solid #D6FF72;
 }
 
 .beneficios-button > button{
@@ -263,11 +257,16 @@ header > .home-page > .button{
     height: 50px;
     background: #D6FF72;
     border-radius: 50px;
-    
-    align-items: center;
-
+    padding: 10px 15px;
+    font-family: 'Cerebri Sans';
     font-style: normal;
-    
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    color: #2730A6;
     border: 0;
 }
 
