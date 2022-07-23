@@ -749,6 +749,12 @@ header > .home-page > .button{
     line-height: 53px;
     text-align: center;
 }
+/**/
+
+/* mentora */
+.mentora{
+    background-image: url(../css/imagens/);
+}
 /* footer */
 footer{
     max-width: 1440px;
