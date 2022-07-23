@@ -749,6 +749,59 @@ header > .home-page > .button{
     line-height: 53px;
     text-align: center;
 }
+.mentora{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mentora figure#um{
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+article#infos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    padding: 96px 80px;
+    background-color: #3B47E4;
+    color: #FFFFFF;
+}
+article#infos h3{
+    font-family: 'Cooper Hewitt';
+    font-style: normal;
+    font-weight: 713;
+    font-size: 42px;
+    line-height: 55px;
+}
+article#infos h4{
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 43px;
+    color: #D6FF72;
+}
+article#infos p{
+    width: 600px;
+    height: 670px;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+img#icon-bg{
+    position: absolute;
+    bottom: 3%;
+    right: 8px;
+}
 /* footer */
 footer{
     max-width: 1440px;
